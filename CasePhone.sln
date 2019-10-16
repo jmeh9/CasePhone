@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{6CAE3F5F-BD97-4CD9-BA02-AAB79775B729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasePhone.Web", "CasePhone.Web\CasePhone.Web.csproj", "{3AF915A7-9170-48AF-B47A-6901CFEF1BFE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AF915A7-9170-48AF-B47A-6901CFEF1BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF915A7-9170-48AF-B47A-6901CFEF1BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF915A7-9170-48AF-B47A-6901CFEF1BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF915A7-9170-48AF-B47A-6901CFEF1BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3AF915A7-9170-48AF-B47A-6901CFEF1BFE} = {6CAE3F5F-BD97-4CD9-BA02-AAB79775B729}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77A4C4F3-CB50-49BF-812E-C8A10AD8A7C6}
